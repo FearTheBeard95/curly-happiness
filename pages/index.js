@@ -68,17 +68,17 @@ const Home = () => (
           <code>
             Carlos is a front-end and freelance developer based in Windhoek with
             an itch for digitalzing and resolving Earth&apos;s issues through
-            code. He spends most of his type on a keyboard learning and coding,
+            code. He spends most of his time on a keyboard learning and coding,
             when relaxing he plays bunch of games (Team Xbox) and watches a alot
             of baskball. He is currently employed as Software developer but he
-            makes a living of freelance projects. To work with him click the
-            button below{' '}
+            also makes a living of freelance projects. To work with him click
+            the button below{' '}
           </code>
         </Paragraph>
         <Box align='left' my={4}>
-          <NextLink href='/works'>
+          <NextLink href='mailto:sibalatanics@outlook.com'>
             <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
-              <code>My portfolio</code>
+              <code>Hire me</code>
             </Button>
           </NextLink>
         </Box>
