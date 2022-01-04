@@ -67,12 +67,12 @@ const Home = () => (
         <Paragraph>
           <code>
             Carlos is a front-end and freelance developer based in Windhoek with
-            an itch for digitalzing and resolving Earth&apos;s issues through
+            an itch for digitalizing and resolving Earth&apos;s issues through
             code. He spends most of his time on a keyboard learning and coding,
-            when relaxing he plays bunch of games (Team Xbox) and watches a alot
-            of baskball. He is currently employed as Software developer but he
-            also makes a living of freelance projects. To work with him click
-            the button below{' '}
+            when relaxing he plays a bunch of games (Team Xbox) and watches a
+            lot of basketball. He is currently employed as a Software developer
+            but he also makes a living on freelance projects. To work with him
+            click the button below{' '}
           </code>
         </Paragraph>
         <Box align='left' my={4}>
@@ -109,7 +109,7 @@ const Home = () => (
           </BioSection>
           <BioSection>
             <BioYear>2020 to present</BioYear>
-            Works as a freelance
+            Works as a freelance developer
           </BioSection>
           <BioSection>
             <BioYear>2021 to present</BioYear>

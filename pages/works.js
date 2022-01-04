@@ -41,8 +41,8 @@ const Works = () => (
           <WorkGridItem id='wyr' title='Would You Rather' thumbnail={thumbWyr}>
             <code>
               An application that allows users to answer would you rather
-              questions, it also give the users the ability to create to polls
-              that other users can then answer.
+              questions, it also gives the users the ability to create polls
+              that other user can then answer.
             </code>
           </WorkGridItem>
         </Section>
