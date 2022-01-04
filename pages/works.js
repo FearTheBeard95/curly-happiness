@@ -23,7 +23,7 @@ const Works = () => (
             thumbnail={thumbNjsj}
           >
             <code>
-              Web application created for Namibia's Social Justice Journal.
+              Web application created for Namibia&apos;s Social Justice Journal.
             </code>
           </WorkGridItem>
         </Section>
@@ -49,9 +49,9 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem id='myreads' thumbnail={thumbMyRead} title='My Reads'>
             <code>
-              This a bookshelf application that organizes the user's books into
-              shelves which are the books you are currently reading, you have
-              read and want to read.
+              This a bookshelf application that organizes the user&apos;s books
+              into shelves which are the books you are currently reading, you
+              have read and want to read.
             </code>
           </WorkGridItem>
         </Section>
