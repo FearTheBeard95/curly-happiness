@@ -5,10 +5,10 @@ import P from '../../components/paragraph';
 import Layout from '../../components/layouts/article';
 
 const Work = () => (
-  <Layout title='Inkdrop'>
+  <Layout title='MyReads'>
     <Container>
       <Title>
-        Inkdrop <Badge>2016-</Badge>
+        MyReads <Badge>2021-</Badge>
       </Title>
       <P>
         <code>
