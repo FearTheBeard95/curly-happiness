@@ -17,13 +17,7 @@ import Paragraph from '../components/paragraph';
 import { BioSection, BioYear } from '../components/bio';
 import Layout from '../components/layouts/article';
 import Section from '../components/section';
-import { GridItem } from '../components/grid-item';
-import {
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoGithub,
-  IoLogoLinkedin,
-} from 'react-icons/io5';
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 
 const Home = () => (
   <Layout>
@@ -73,10 +67,10 @@ const Home = () => (
         <Paragraph>
           <code>
             Carlos is a front-end and freelance developer based in Windhoek with
-            an itch for digitalzing and resolving Earth's issues through code.
-            He spends most of his type on a keyboard learning and coding, when
-            relaxing he plays bunch of games (Team Xbox) and watches a alot of
-            baskball. He is currently employed as Software developer but he
+            an itch for digitalzing and resolving Earth&apos;s issues through
+            code. He spends most of his type on a keyboard learning and coding,
+            when relaxing he plays bunch of games (Team Xbox) and watches a alot
+            of baskball. He is currently employed as Software developer but he
             makes a living of freelance projects. To work with him click the
             button below{' '}
           </code>
@@ -102,8 +96,8 @@ const Home = () => (
           <BioSection>
             <BioYear>2016</BioYear>
             Completed the Bachelor&apos;s Program in the Graduate School of
-            Computer Science at Namibia's university if science and technology
-            (Best student)
+            Computer Science at Namibia&apos;s university if science and
+            technology (Best student)
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>

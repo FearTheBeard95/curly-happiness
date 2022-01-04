@@ -12,8 +12,9 @@ const Work = () => (
       </Title>
       <P>
         <code>
-          A web application created for Namibia's Social Justice Journal, the
-          app allows the users to upload volumes with articles to the web app.
+          A web application created for Namibia&apos;s Social Justice Journal,
+          the app allows the users to upload volumes with articles to the web
+          app.
         </code>
       </P>
       <List ml={4} my={4}>
