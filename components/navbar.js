@@ -124,6 +124,9 @@ const Navbar = (props) => {
                 >
                   View Source
                 </MenuItem>
+                <MenuItem as={Link} href='mailto:sibalatanics@outlook.com'>
+                  Contact me
+                </MenuItem>
               </MenuList>
             </Menu>
           </Box>
