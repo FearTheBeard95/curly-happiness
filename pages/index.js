@@ -62,7 +62,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as='h3' variant='section-title'>
-          Work
+          About me
         </Heading>
         <Paragraph>
           <code>
@@ -121,7 +121,7 @@ const Home = () => (
           </BioSection>
         </code>
         <Box align='left' my={4}>
-          <NextLink href='/works'>
+          <NextLink href='/Resume.pdf'>
             <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
               <code>My resume</code>
             </Button>
