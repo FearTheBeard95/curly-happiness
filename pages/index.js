@@ -29,7 +29,9 @@ const Home = () => (
         textAlign='center'
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hi There, I&apos;m a front-end developer based in Namibia 🇳🇦 !
+        <code>
+          Hi There, I&apos;m a front-end developer based in Namibia 🇳🇦 !
+        </code>
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -63,62 +65,65 @@ const Home = () => (
           About me
         </Heading>
         <Paragraph>
-          Carlos is a front-end and freelance developer based in Windhoek with
-          an itch for digitalizing and resolving Earth&apos;s issues through
-          code. He spends most of his time on a keyboard learning and coding,
-          when relaxing he plays a bunch of games (Team Xbox) and watches a lot
-          of basketball. He is currently employed as a Software developer but he
-          also makes a living on freelance projects. To work with him click the
-          button below{' '}
+          <code>
+            Carlos is a front-end and freelance developer based in Windhoek with
+            an itch for digitalizing and resolving Earth&apos;s issues through
+            code. He spends most of his time on a keyboard learning and coding,
+            when relaxing he plays a bunch of games (Team Xbox) and watches a
+            lot of basketball. He is currently employed as a Software developer
+            but he also makes a living on freelance projects. To work with him
+            click the button below{' '}
+          </code>
         </Paragraph>
         <Box align='left' my={4}>
           <NextLink href='mailto:sibalatanics@outlook.com'>
             <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
-              Hire me
+              <code>Hire me</code>
             </Button>
           </NextLink>
         </Box>
       </Section>
 
       <Section delay={0.2}>
-        <Heading as='h3' variant='section-title'>
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>1995</BioYear>
-          Born in Katima Mulilo, Namibia.
-        </BioSection>
-        <BioSection>
-          <BioYear>2016</BioYear>
-          Completed the Bachelor&apos;s Program in the Graduate School of
-          Computer Science at Namibia&apos;s university of science and
-          technology (Best student)
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Worked at Elev8
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Worked at SILNAM IT Solutions
-        </BioSection>
-        <BioSection>
-          <BioYear>2020 to present</BioYear>
-          Works as a freelance developer
-        </BioSection>
-        <BioSection>
-          <BioYear>2021 to present</BioYear>
-          CDC Employee at MOHSS Namibia
-        </BioSection>
-        <BioSection>
-          <BioYear>2021</BioYear>
-          React Nano Degree (Udacity)
-        </BioSection>
-
+        <code>
+          <Heading as='h3' variant='section-title'>
+            <code>Bio</code>
+          </Heading>
+          <BioSection>
+            <BioYear>1995</BioYear>
+            Born in Katima Mulilo, Namibia.
+          </BioSection>
+          <BioSection>
+            <BioYear>2016</BioYear>
+            Completed the Bachelor&apos;s Program in the Graduate School of
+            Computer Science at Namibia&apos;s university of science and
+            technology (Best student)
+          </BioSection>
+          <BioSection>
+            <BioYear>2019</BioYear>
+            Worked at Elev8
+          </BioSection>
+          <BioSection>
+            <BioYear>2019</BioYear>
+            Worked at SILNAM IT Solutions
+          </BioSection>
+          <BioSection>
+            <BioYear>2020 to present</BioYear>
+            Works as a freelance developer
+          </BioSection>
+          <BioSection>
+            <BioYear>2021 to present</BioYear>
+            CDC Employee at MOHSS Namibia
+          </BioSection>
+          <BioSection>
+            <BioYear>2021</BioYear>
+            React Nano Degree (Udacity)
+          </BioSection>
+        </code>
         <Box align='left' my={4}>
           <NextLink href='/Resume.pdf'>
             <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
-              My resume
+              <code>My resume</code>
             </Button>
           </NextLink>
         </Box>

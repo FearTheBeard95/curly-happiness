@@ -11,10 +11,12 @@ const Work = () => (
         MyReads <Badge>2021-</Badge>
       </Title>
       <P>
-        A bookshelf application that organizes the user&apos;s books into
-        shelves which are the books you are currently reading, you have read ,
-        and want to read. The application is written in React.js and uses an API
-        for books provided by udacity.
+        <code>
+          A bookshelf application that organizes the user&apos;s books into
+          shelves which are the books you are currently reading, you have read ,
+          and want to read. The application is written in React.js and uses an
+          API for books provided by udacity.
+        </code>
       </P>
       <List ml={4} my={4}>
         <ListItem>
