@@ -96,7 +96,7 @@ const Home = () => (
           <BioSection>
             <BioYear>2016</BioYear>
             Completed the Bachelor&apos;s Program in the Graduate School of
-            Computer Science at Namibia&apos;s university if science and
+            Computer Science at Namibia&apos;s university of science and
             technology (Best student)
           </BioSection>
           <BioSection>
