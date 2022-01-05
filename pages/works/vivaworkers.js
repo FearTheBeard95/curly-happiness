@@ -11,10 +11,8 @@ const Work = () => (
         Viva Workers <Badge>2021-</Badge>
       </Title>
       <P>
-        <code>
-          A web application for the author of viva workers papers to upload
-          their work.
-        </code>
+        A web application for the author of viva workers papers to upload their
+        work.
       </P>
       <List ml={4} my={4}>
         <ListItem>

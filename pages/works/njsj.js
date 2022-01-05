@@ -11,11 +11,8 @@ const Work = () => (
         NJSJ <Badge>2021-</Badge>
       </Title>
       <P>
-        <code>
-          A web application created for Namibia&apos;s Social Justice Journal,
-          the app allows the users to upload volumes with articles to the web
-          app.
-        </code>
+        A web application created for Namibia&apos;s Social Justice Journal, the
+        app allows the users to upload volumes with articles to the web app.
       </P>
       <List ml={4} my={4}>
         <ListItem>

@@ -11,14 +11,12 @@ const Work = () => (
         Would You Rather <Badge>2021-</Badge>
       </Title>
       <P>
-        <code>
-          An application that allows users to answer would you rather questions,
-          also gives the users the ability to create polls that other users can
-          then answer. It shows the results of each poll after the user answers
-          a poll and displays a leaderboard to show who the champion of ask and
-          answering polls is. The application was created using React.js and
-          Redux.
-        </code>
+        An application that allows users to answer would you rather questions,
+        also gives the users the ability to create polls that other users can
+        then answer. It shows the results of each poll after the user answers a
+        poll and displays a leaderboard to show who the champion of ask and
+        answering polls is. The application was created using React.js and
+        Redux.
       </P>
       <List ml={4} my={4}>
         <ListItem>

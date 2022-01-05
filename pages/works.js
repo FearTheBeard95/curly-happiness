@@ -22,9 +22,7 @@ const Works = () => (
             title='Namibia Journal for Social Justice'
             thumbnail={thumbNjsj}
           >
-            <code>
-              Web application created for Namibia&apos;s Social Justice Journal.
-            </code>
+            Web application created for Namibia&apos;s Social Justice Journal.
           </WorkGridItem>
         </Section>
         <Section>
@@ -33,26 +31,22 @@ const Works = () => (
             title='Viva Workers'
             thumbnail={thumbViva}
           >
-            <code>Web appplication for the writer of viva workers</code>
+            Web appplication for the writer of viva workers
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem id='wyr' title='Would You Rather' thumbnail={thumbWyr}>
-            <code>
-              An application that allows users to answer would you rather
-              questions, it also gives the users the ability to create polls
-              that other user can then answer.
-            </code>
+            An application that allows users to answer would you rather
+            questions, it also gives the users the ability to create polls that
+            other user can then answer.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id='myreads' thumbnail={thumbMyRead} title='My Reads'>
-            <code>
-              This a bookshelf application that organizes the user&apos;s books
-              into shelves which are the books you are currently reading, you
-              have read and want to read.
-            </code>
+            This a bookshelf application that organizes the user&apos;s books
+            into shelves which are the books you are currently reading, you have
+            read and want to read.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
