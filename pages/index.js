@@ -134,6 +134,13 @@ const Home = () => (
           My Stack 🚀
         </Heading>
         <Paragraph>Mongo | Express | React.js | Node.js </Paragraph>
+        <Box align='left' my={4}>
+          <NextLink href='/works'>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
+              <code>My Work</code>
+            </Button>
+          </NextLink>
+        </Box>
       </Section>
 
       <Section delay={0.3}>
