@@ -7,6 +7,7 @@ import thumbNjsj from '../public/images/works/njsj.jpeg';
 import thumbViva from '../public/images/works/vivaworkers.jpeg';
 import thumbWyr from '../public/images/works/wyr.png';
 import thumbMyRead from '../public/images/works/myreads.png';
+import thumbShackdwellers from '../public/images/works/shackdwellers2.png';
 
 const Works = () => (
   <Layout title='Works'>
@@ -52,6 +53,19 @@ const Works = () => (
               This a bookshelf application that organizes the user&apos;s books
               into shelves which are the books you are currently reading, you
               have read and want to read.
+            </code>
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id='shackdwellers'
+            thumbnail={thumbShackdwellers}
+            title='Shack Dwellers Federation of Namibia'
+          >
+            <code>
+              This is web application created for the federation to promote the
+              work and documents to the pubic. this was developed using React.js
+              and Next.js.
             </code>
           </WorkGridItem>
         </Section>

@@ -11,6 +11,7 @@ import {
   ListItem,
   Icon,
   useColorModeValue,
+  UnorderedList,
 } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import Paragraph from '../components/paragraph';
@@ -66,13 +67,13 @@ const Home = () => (
         </Heading>
         <Paragraph>
           <code>
-            Carlos is a front-end and freelance developer based in Windhoek with
-            an itch for digitalizing and resolving Earth&apos;s issues through
-            code. He spends most of his time on a keyboard learning and coding,
-            when relaxing he plays a bunch of games (Team Xbox) and watches a
-            lot of basketball. He is currently employed as a Software developer
-            but he also makes a living on freelance projects. To work with him
-            click the button below{' '}
+            Im a Fullstack Developer with 4 years experience designing,
+            developing and implementing applications and solutions as both a
+            professional and freelance setting. I make use of a range of
+            prgramming languages, tools and cloud services to build and deploy
+            applications. Seeking to levergage my developement expereince and
+            hands on technical expertise in a challenging role as either a
+            Front-End, Back-End or Full-Stack Developer.
           </code>
         </Paragraph>
         <Box align='left' my={4}>
@@ -87,12 +88,8 @@ const Home = () => (
       <Section delay={0.2}>
         <code>
           <Heading as='h3' variant='section-title'>
-            <code>Bio</code>
+            <code>Experience</code>
           </Heading>
-          <BioSection>
-            <BioYear>1995</BioYear>
-            Born in Katima Mulilo, Namibia.
-          </BioSection>
           <BioSection>
             <BioYear>2016</BioYear>
             Completed the Bachelor&apos;s Program in the Graduate School of
@@ -108,7 +105,7 @@ const Home = () => (
             Worked at SILNAM IT Solutions
           </BioSection>
           <BioSection>
-            <BioYear>2020 to present</BioYear>
+            <BioYear>2019 to present</BioYear>
             Works as a freelance developer
           </BioSection>
           <BioSection>
